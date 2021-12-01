@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #FEFAE0; */
+}
+
+.nav {
+  display: flex;
+  background-color: #fefae0;
+  width: 100%;
+}
+
+.nav .logo {
+  flex-basis: 80%;
+  display: flex;
+  padding: 1%;
+  align-items: center;
+}
+
+.nav .logo img {
+  width: 40px;
+  margin-left: 2%;
+}
+
+.nav .logo h2 {
+  color: #ba8046;
+  margin-left: 2%;
+}
+
+.nav .melodum {
+  display: flex;
+  flex-basis: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav .melodum img {
+  width: 40px;
+  display: flex;
+}
+
+.nav .melodum a {
+  text-decoration: none;
+  color: #ba8046;
+}
+
+span.logout {
+  color: #ba8046;
+}
+
+@media screen and (max-width: 450px) {
+  .nav .melodum img,
+  .nav .logo img {
+    width: 27px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav .logo h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav .melodum {
+    flex-basis: 50%;
+  }
+}
+
+/* ********* Main 1 ****** */
+
+.main1 .text h1 {
+  position: absolute;
+  font-size: 7vw;
+  color: white;
+  font-family: futura;
+  margin-top: 14%;
+}
+.main1 .text h4 {
+  color: white;
+  position: absolute;
+  font-family: futura;
+  margin-left: 1%;
+  font-size: 2vw;
+  z-index: 10;
+  margin-top: 32%;
+}
+.main1 .main-bg img {
+  width: 100%;
+}
+.items {
+  background-color: #fefae0;
+}
+/* ********** For Product One  ************** */
+.items .product-one {
+  background-color: #fefae0;
+  position: relative;
+}
+
+.items .product-one img {
+  width: 25%;
+  padding: 10px;
+}
+
+.items .name {
+  color: #ba8046;
+  position: absolute;
+  top: 7%;
+  left: 32%;
+  font-size: 2vw;
+  font-family: "Roboto", sans-serif;
+}
+.items .price {
+  color: #ba8046;
+  position: absolute;
+  font-size: 2vw;
+  top: 15%;
+  left: 32%;
+}
+
+.items button {
+  color: white;
+  background-color: #ba8046;
+  padding: 2% 3%;
+  border: 0;
+  position: absolute;
+  bottom: 10px;
+  left: 32%;
+  border-radius: 3px;
+}
+
+/* ******************* Footer Section **************************** */
+
+footer {
+  background-color: #faedcd;
+  width: 100%;
+}
+footer .end {
+  font-family: Roboto;
+  color: #ba8046;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.end button {
+  color: white;
+  font-family: Roboto;
+  background-color: #ba8046;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+footer .back-to-home {
+  color: #fff;
+  background-color: #ba8046;
+  border: 0;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-family: Roboto;
+  cursor: pointer;
+  margin-left: 43%;
+}
+
+/* **************** 
+    cart page
+ ************* */
+
+.cart {
+  background-color: #ba8046;
+  padding: 10% 35%;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+}
+
+/*********** 
+ Thank You Page
+  ************/
+.thank-you {
+  background-color: #ba8046;
+  padding: 10% 40%;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+}
+.message {
+  background-color: #fefae0;
+}
+.message p {
+  color: #ba8046;
+  padding: 10% 35%;
+  font-family: "Roboto", sans-serif;
+}
+
+.order-items {
+  background-color: #ba8046;
+  padding: 10% 40%;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 30px;
+}
+
+/********* Order Item 
+  ************ */
+
+.color {
+  background-color: #fefae0;
+}
+
+.orderitems {
+  width: 70%;
+  margin: 0 auto;
+}
+.orderitems .heading-items h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ba8046;
+}
+.orderitems .items-table table {
+  border-spacing: 20px;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #ba8046;
+  margin: 0 auto;
+  color: #ba8046;
+}
+.orderitems .heading-items p {
+  color: #ba8046;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.orderitems .items-table .total ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: #ba8046;
+}
+.orderitems .items-table .total ul li {
+  flex-basis: 135px;
+  font-family: "Avenir", sans-serif;
+  font-weight: bolder;
+}
+
+.item-details .signupform {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #ba8046;
+  margin: 0 auto;
+  margin-left: 18%;
+  list-style: none;
+}
+.item-details .signupform #name,
+#number,
+#address,
+#zip,
+#house,
+#city,
+#State {
+  padding: 1% 4%;
+  background-color: #ba8046;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+}
+.item-details .signupform ::placeholder {
+  color: #fefae0;
+}
+
+.item-details .signupform .submit {
+  width: 14%;
+  padding: 1% 4%;
+  background-color: #ba8046;
+  border: 0;
+  color: #fff;
+  border-radius: 2px;
+  margin: 3% 5%;
+}
+
+/* ************
+For Sign In Page
+***************** */
+
+.signin {
+  background-color: #d4a373;
+  width: 100%;
+  position: fixed;
+  opacity: 90%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.signin .Melodum img {
+  width: 40px;
+  margin-top: -8%;
+}
+.signin .popup-inner {
+  color: #fefae0;
+}
+.signin .popup-inner .popup-preview {
+  position: absolute;
+  left: 35%;
+  width: 30%;
+  background-color: #fefae0;
+  border-radius: 3%;
+  margin-top: 15%;
+}
+
+.signin .popup-inner .popup-preview .close {
+  position: absolute;
+  width: 27px;
+  right: 0px;
+  top: -5%;
+}
+.signin .popup-inner .popup-preview .input .Melodum {
+  display: flex;
+  margin: 10% 20%;
+}
+
+.signin .logo {
+  width: 6%;
+  margin-top: 8%;
+}
+
+.signin .logo img {
+  width: 40px;
+  margin-left: 46%;
+}
+.signin .input .melodum {
+  display: flex;
+}
+
+.signin .bold {
+  color: #ba8046;
+  /* margin-left: 2%; */
+  font-weight: bolder;
+  /* margin-top: 5%; */
+}
+
+.signin .bold2 {
+  color: #ba8046;
+  padding: 2% 2%;
+  margin: 8% 32%;
+  font-family: "Roboto", sans-serif;
+}
+
+.signin #email,
+#password,
+#username {
+  padding: 4% 4%;
+  background-color: #d4a373;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  margin: 4% 4%;
+}
+
+.signin .sign ul ::placeholder {
+  color: #fefae0;
+}
+
+.signin button {
+  width: 30%;
+  padding: 4% 4%;
+  justify-content: center;
+  background-color: #ba8046;
+  border: 0;
+  color: #fff;
+  border-radius: 2px;
+}
+.signin p {
+  color: #495050;
+  margin-left: 8%;
+}
+.signin .sign ul a {
+  color: #495050;
+}
+li {
+  list-style: none;
+}
