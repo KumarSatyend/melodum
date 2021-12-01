@@ -82,7 +82,6 @@ span.logout {
   font-family: futura;
   margin-left: 1%;
   font-size: 2vw;
-  z-index: 10;
   margin-top: 32%;
 }
 .main1 .main-bg img {
@@ -290,12 +289,11 @@ For Sign In Page
   background-color: #d4a373;
   width: 100%;
   position: fixed;
-  opacity: 90%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 2;
+  opacity: 0.95;
 }
 .signin .Melodum img {
   width: 40px;
